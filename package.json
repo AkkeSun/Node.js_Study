@@ -21,6 +21,8 @@
   "homepage": "https://github.com/AkkeSun/Node.js_Study#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "oracledb": "^5.2.0",
     "sanitize-html": "^2.4.0"
   }
 }
