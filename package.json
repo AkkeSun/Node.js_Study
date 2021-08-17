@@ -1,28 +1,27 @@
 {
-  "name": "node.js_study",
-  "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AkkeSun/Node.js_Study.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AkkeSun/Node.js_Study/issues"
-  },
-  "homepage": "https://github.com/AkkeSun/Node.js_Study#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "http-errors": "~1.6.3",
+    "iconv-lite": "^0.6.3",
+    "jquery": "^3.6.0",
+    "mime": "^2.5.2",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.3",
     "mysql": "^2.18.1",
-    "oracledb": "^5.2.0",
-    "sanitize-html": "^2.4.0"
+    "sanitize-html": "^2.4.0",
+    "sync-mysql": "^3.0.1",
+    "uuid": "^8.3.2"
   }
 }
